@@ -7,4 +7,4 @@ Keywords: radiomics, CT imaging data, colorectal cancer, survival, machine learn
 
 ## Setup of the benchmark pipeline
 
-![alt text](img/benchmarkPipeline.png "Setup")
+[Setup](img/benchmarkPipeline.pdf)
