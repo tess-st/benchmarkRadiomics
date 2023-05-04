@@ -4,11 +4,7 @@ source("01_benchmarkSetup.R", local = TRUE)
 # function to extract each task (varying data sets)
 getTask = function(task_id) {
   # pick each data set based on task_id and remove column "pat_id"
-  # event variable needs to be numeric instead of factor for survival
-  data = get(task_id) %>%
-    dplyr::select(-c("pat_id")) %>%
-    mutate(death = (as.numeric(death) - 1))
-
+  data = get(task_id)
   # clinical data: remove all binary variables created from a numeric
   # if(grepl("cd", task_id))
   #   data = data %>%
@@ -63,7 +59,7 @@ getLearner = function(learner_id, task) {
     at = AutoTuner$new(
       learner = glearner,
       resampling = RESAMPLING_INNER,
-      measure = msr(TUNING_MEASURE, integrated = TRUE, times = seq(0, quantile(cd$osdays, .80))),
+      measure = msr(TUNING_MEASURE, integrated = TRUE),# eventually add times = seq(0, quantile(dat$osdays, .80)))
       search_space = search_space,
       tuner = getTuner(learner_id),
       terminator = getTerminator(learner_id)#,
@@ -121,7 +117,6 @@ design = data.table(
 
 # batchmark(design, reg = reg)#, store_models = TRUE)
 # getStatus()
-
 
 bench = benchmark(design, store_models = TRUE)
 save(bench, "data/bmr_breastCancer")

@@ -1,12 +1,22 @@
 options("mlr3.debug" = TRUE)
-# load different data sets
-load("../data/saved_data/final_data_clinic.RData")
-load("../data/saved_data/final_data_omics.RData")
-load("../data/saved_data/final_data_cd_omics.RData")
 
-# Load datasets
-# only radiomics datsets from liver (rd_l)and tumor /rd-t) provided, clinical data  (cd) and combinations not available
-TASK_IDS = c("rd_l", "rd_t")# , "cd", "cd_rd_l", "cd_rd_t")
+# load example data set for sruvival analysis
+# additionally save in file "data", load via
+# load("data/breastCancer.RData")
+
+bc = mlr3proba::gbcs
+
+# remove irrelevant variables
+# analysis of overall survival -> remove recurrence variables
+# rename time and event variable to
+# as factor: menopause, hormone, grade
+# death: event variable needs to be numeric instead of factor for survival
+bc = bc %>% dplyr::select(-c("id", "diagdate", "recdate", "deathdate", "censrec", "rectime"))%>%
+  rename("osdays" = "survtime", "death" = "censdead") %>%
+  mutate_at(c("menopause", "hormone", "grade"), factor)
+
+# name all radiomics and clinical datasets for the benchmark analyses here
+TASK_IDS = c("bc")
 
 # Define measure(s) for tuning and evaluation
 # "surv.graf" = integrated Brier-score (IBS)
@@ -104,10 +114,10 @@ getGraphLearner = function(learner_id, learner) {
 }
 
 # Resampling for evaluation, 10-fold cross validation
-RESAMPLING_OUTER = rsmp("cv", folds = 10L)
+RESAMPLING_OUTER = mlr3::rsmp("cv", folds = 10L)
 
 # Resampling for tuning, 5-fold cross validation
-RESAMPLING_INNER = rsmp("cv", folds = 5L)
+RESAMPLING_INNER = mlr3::rsmp("cv", folds = 5L)
 
 # Settings for tuners
 ETA = 2
