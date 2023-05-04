@@ -5,7 +5,14 @@ We provide a benchmark framework for radiomics-based survival analysis, aimed at
 Keywords: radiomics, CT imaging data, colorectal cancer, survival, machine learning, benchmark, mlr3.
 
 
-## Calculation of radiomics features
+Our goal is to provide an automated approach for conducting and evaluating benchmark studies that compare various pipelines for radiomics analyses. This includes the following steps:
+
+1. [Calculation of radiomics features](sec1)
+2. [Radiomics-based benchmark experiment](sec2)
+3. [Evaluation of the benchmark results via an LMM](sec3)
+
+
+## sec1
 
 [PyRadiomics](https://pyradiomics.readthedocs.io/en/latest/) is a [Python package](https://github.com/AIM-Harvard/pyradiomics) that can be used to calculate radiomics features. It includes a command-line script that can be used for both single image extraction and batch processing. For our use case we adapted the example [batchprocessing script](https://github.com/AIM-Harvard/pyradiomics/blob/master/examples/batchprocessing.py). This script can also be found in `PyRadiomics/example_radiomcsCalc.py`.
 
