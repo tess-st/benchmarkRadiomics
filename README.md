@@ -7,9 +7,9 @@ Keywords: radiomics, CT imaging data, colorectal cancer, survival, machine learn
 
 Our goal is to provide an automated approach for conducting and evaluating benchmark studies that compare various pipelines for radiomics analyses. This includes the following steps:
 
-1. [Calculation of radiomics features](sec1)
-2. [Radiomics-based benchmark experiment](sec2)
-3. [Evaluation of the benchmark results via an LMM](sec3)
+1. [Calculation of radiomics features](#sec1)
+2. [Radiomics-based benchmark experiment](#sec2)
+3. [Evaluation of the benchmark results via an LMM](#sec3)
 
 
 ## sec1
