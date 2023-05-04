@@ -12,6 +12,7 @@ Keywords: radiomics, CT imaging data, colorectal cancer, survival, machine learn
 
 ## Setup of the benchmark pipeline
 
-Our benchmark had the setup presented in the figure below, but can easily be adapted 
+Our benchmark was set up as described in the figure below, but it can be easily adapted for regression or classification tasks, including the comparison of different learners with appropriate hyperparameters, utilization of alternative metrics, customization of the preprocessing steps, etc.
+
 ![alt text](img/benchmarkPipelineSetup.png "Setup")
 
