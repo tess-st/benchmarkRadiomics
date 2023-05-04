@@ -1,5 +1,5 @@
 # load predefined data sets and functions
-source("0_1_benchmarkSetup.R", local = TRUE)
+source("01_benchmarkSetup.R", local = TRUE)
 
 # function to extract each task (varying data sets)
 getTask = function(task_id) {
