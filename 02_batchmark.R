@@ -122,4 +122,6 @@ design = data.table(
 # batchmark(design, reg = reg)#, store_models = TRUE)
 # getStatus()
 
-bench = benchmark(design)#, store_models = TRUE)
+
+bench = benchmark(design, store_models = TRUE)
+save(bench, "data/bmr_breastCancer")
