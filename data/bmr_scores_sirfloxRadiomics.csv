@@ -1,0 +1,584 @@
+task_id,learner_id,iteration,surv.graf,surv.harrell_c,algo,PCA,Tuning
+Clinical Data,"glmnet (no PCA, tuned)",1,0.16901031361962,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",5,0.170490633733861,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",8,0.17197399949559,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",9,0.188956238705396,0.5,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, tuned)",10,0.201120394659215,0.680080473423004,cv_glmnet,no PCA,tuned
+Clinical Data,"glmnet (no PCA, untuned)",1,0.178115530471338,0.667424917221069,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",2,0.185269010477739,0.574376225471497,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",3,0.200231378422011,0.560885608196259,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",4,0.194346891292064,0.500454127788544,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",5,0.197477618761697,0.506874442100525,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",6,0.208034790312235,0.664026081562042,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",7,0.21859845711576,0.646009385585785,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",8,0.216325214953218,0.613613605499268,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",9,0.203489591989615,0.632575750350952,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (no PCA, untuned)",10,0.210356587738874,0.680080473423004,cv_glmnet,no PCA,untuned
+Clinical Data,"glmnet (PCA, tuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",6,0.196892676939449,0.625349462032318,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",7,0.195434760881953,0.563380300998688,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",8,0.17197399949559,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",9,0.188956238705396,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, tuned)",10,0.194551415641507,0.5,cv_glmnet,PCA,tuned
+Clinical Data,"glmnet (PCA, untuned)",1,0.184345234674541,0.645131945610046,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",2,0.178868741320215,0.547024965286255,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",3,0.200427107326927,0.59132844209671,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",4,0.194386987688313,0.564032673835754,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",5,0.182947538548215,0.503208041191101,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",6,0.206994597962186,0.595526576042175,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",8,0.17197399949559,0.5,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",9,0.208549846322463,0.64678031206131,cv_glmnet,PCA,untuned
+Clinical Data,"glmnet (PCA, untuned)",10,0.205216667967583,0.618712246417999,cv_glmnet,PCA,untuned
+Clinical Data,"RSF (no PCA, tuned)",1,0.1681723354447,0.566878974437714,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",2,0.174531459043208,0.571976959705353,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",3,0.177336782351301,0.685424327850342,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",4,0.195608692435225,0.534059941768646,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",5,0.179314117271725,0.505957841873169,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",6,0.166662771243014,0.681267499923706,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",7,0.169698284081695,0.659154951572418,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",8,0.143495211149246,0.653653681278229,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",9,0.166790377126469,0.680871188640594,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, tuned)",10,0.183720792215006,0.643863201141357,rfsrc,no PCA,tuned
+Clinical Data,"RSF (no PCA, untuned)",1,0.167204109144558,0.556869864463806,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",2,0.170583721803013,0.570057570934296,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",3,0.181333456098234,0.668819189071655,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",4,0.187167135165697,0.568574011325836,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",5,0.180626840054658,0.472043991088867,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",6,0.162946271701054,0.683131396770477,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",7,0.170790552480169,0.661971807479858,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",8,0.144229156616286,0.658658683300018,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",9,0.164247046510891,0.686553001403809,rfsrc,no PCA,untuned
+Clinical Data,"RSF (no PCA, untuned)",10,0.184569148037549,0.647887349128723,rfsrc,no PCA,untuned
+Clinical Data,"RSF (PCA, tuned)",1,0.168281368351445,0.562329411506653,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",2,0.180332112098805,0.550863742828369,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",3,0.185282229393358,0.61992621421814,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",4,0.184567051147933,0.578564941883087,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",5,0.177505585351823,0.519706666469574,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",6,0.166903664508063,0.646784722805023,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",7,0.17306277377887,0.642253518104553,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",8,0.148865524249924,0.640640616416931,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",9,0.16685639555280601,0.666666686534882,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, tuned)",10,0.195950920479426,0.596579492092133,rfsrc,PCA,tuned
+Clinical Data,"RSF (PCA, untuned)",1,0.167117817352057,0.598726093769073,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",2,0.170283337584918,0.598848342895508,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",3,0.184035830586017,0.687269389629364,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",4,0.181330579206562,0.594005465507507,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",5,0.164718081154323,0.539871692657471,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",6,0.169918203896341,0.659832239151001,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",7,0.17880584807139,0.645070433616638,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",8,0.146818643666788,0.628628611564636,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",9,0.17002386544909,0.660984873771667,rfsrc,PCA,untuned
+Clinical Data,"RSF (PCA, untuned)",10,0.192351852450521,0.627766609191895,rfsrc,PCA,untuned
+Clinical Data,"xgboost (no PCA, tuned)",1,0.199142610610846,0.585987269878387,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",2,0.24753428325352,0.571017265319824,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",3,0.242942595475481,0.579335808753967,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",4,0.218040810241547,0.483197093009949,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",5,0.161860100160119,0.380384981632233,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",6,0.214297691431822,0.62907737493515,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",7,0.237017514355748,0.595305144786835,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",8,0.232753576793285,0.586586594581604,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",9,0.239388227656283,0.629734873771667,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, tuned)",10,0.226708084170145,0.508048295974731,xgboost,no PCA,tuned
+Clinical Data,"xgboost (no PCA, untuned)",1,0.381748272679224,0.393084615468979,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",2,0.408284074198126,0.524951994419098,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",3,0.376341867720891,0.549815475940704,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",4,0.375132377921992,0.415077209472656,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",5,0.412446275312487,0.487626045942307,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",6,0.438459391765486,0.556383967399597,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",7,0.449211936975585,0.62629109621048,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",8,0.448826731381661,0.510510504245758,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",9,0.437113622887761,0.436553031206131,xgboost,no PCA,untuned
+Clinical Data,"xgboost (no PCA, untuned)",10,0.347130957073272,0.614688158035278,xgboost,no PCA,untuned
+Clinical Data,"xgboost (PCA, tuned)",1,0.203595628067823,0.594176530838013,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",2,0.225079547288867,0.648752391338348,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",3,0.229464831782445,0.640221416950226,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",4,0.227118080024725,0.544050872325897,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",5,0.196619842205788,0.604949593544006,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",6,0.224732204222673,0.647716701030731,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",7,0.212735583630172,0.511737108230591,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",8,0.217653903017541,0.598598599433899,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",9,0.245381204180024,0.64393937587738,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, tuned)",10,0.240586375253632,0.638832986354828,xgboost,PCA,tuned
+Clinical Data,"xgboost (PCA, untuned)",1,0.381748272679224,0.511373996734619,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",2,0.408284074198126,0.563339710235596,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",3,0.376341867720891,0.488929897546768,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",4,0.375132377921992,0.415077209472656,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",5,0.412446275312487,0.469294220209122,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",6,0.438459391765486,0.494874179363251,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",7,0.449211936975585,0.518309831619263,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",8,0.448826731381661,0.444444447755814,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",9,0.437113622887761,0.515151500701904,xgboost,PCA,untuned
+Clinical Data,"xgboost (PCA, untuned)",10,0.347130957073272,0.530181109905243,xgboost,PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",1,0.16901031361962,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",2,0.17527204263344,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",3,0.197194738921764,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",4,0.192129269456782,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",5,0.170490633733861,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",6,0.188931753577806,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",7,0.192637404811705,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",8,0.17197399949559,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",9,0.188956238705396,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (no PCA, untuned)",10,0.194551415641507,0.5,cv_glmnet,no PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",8,0.17197399949559,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",9,0.188956238705396,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"glmnet (PCA, untuned)",10,0.194551415641507,0.5,cv_glmnet,PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",1,0.16292821436501,0.656050980091095,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",2,0.17668918255368,0.56717848777771,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",3,0.190150771244588,0.625461280345917,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",4,0.189316850522589,0.592188894748688,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",5,0.174913184886871,0.472960591316223,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",6,0.190028935801881,0.5358806848526,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",7,0.194902590778021,0.555868566036224,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",8,0.152867645144297,0.604604601860046,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",9,0.164226552749332,0.67518937587738,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (no PCA, untuned)",10,0.195029767202566,0.612676084041595,rfsrc,no PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",1,0.188794456405089,0.558689713478088,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",2,0.202681192945086,0.525911688804626,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",3,0.225236557319117,0.567343175411224,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",4,0.207554533949868,0.565849244594574,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",5,0.180842491863369,0.496791929006577,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",6,0.188942566945768,0.557315945625305,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",7,0.19108567946543,0.573708891868591,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",8,0.171669252379427,0.577577590942383,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",9,0.190570362023343,0.662878811359406,rfsrc,PCA,untuned
+Radiomics Liver,"RSF (PCA, untuned)",10,0.210325786761472,0.562374234199524,rfsrc,PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",1,0.381748272679224,0.551410377025604,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",2,0.408284074198126,0.484644919633865,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",3,0.376341867720891,0.479704797267914,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",4,0.375132377921992,0.520435988903046,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",5,0.412446275312487,0.529789209365845,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",6,0.438459391765486,0.479030758142471,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",7,0.449211936975585,0.437558680772781,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",8,0.448826731381661,0.519519507884979,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",9,0.437113622887761,0.499053031206131,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (no PCA, untuned)",10,0.347130957073272,0.420523136854172,xgboost,no PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",1,0.381748272679224,0.434940844774246,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",2,0.408284074198126,0.461612284183502,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",3,0.376341867720891,0.459409594535828,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",4,0.375132377921992,0.425976395606995,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",5,0.412446275312487,0.516956925392151,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",6,0.438459391765486,0.423112779855728,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",7,0.449211936975585,0.479812204837799,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",8,0.448826731381661,0.449449449777603,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",9,0.436046891452534,0.34375,xgboost,PCA,untuned
+Radiomics Liver,"xgboost (PCA, untuned)",10,0.347130957073272,0.447686105966568,xgboost,PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",1,0.227595059163958,0.657870769500732,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",2,0.305076523303097,0.612284064292908,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",3,0.2341849274151,0.683579325675964,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",4,0.259060239316573,0.577656686306,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",5,0.27722415231794,0.573785543441772,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",6,0.220090158983541,0.661696195602417,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",7,0.284114934946854,0.604694843292236,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",8,0.264875239862021,0.701701700687408,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",9,0.287581546692417,0.591856062412262,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (no PCA, untuned)",10,0.215158074195735,0.644869208335876,cv_glmnet,no PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",8,0.17197399949559,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",9,0.188956238705396,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"glmnet (PCA, untuned)",10,0.194551415641507,0.5,cv_glmnet,PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",1,0.160965748349935,0.637852609157562,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",2,0.169541867904937,0.614203453063965,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",3,0.168499300308824,0.726937294006348,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",4,0.183702373300186,0.589464128017426,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",5,0.166426672456505,0.54353803396225,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",6,0.163071627200538,0.660764217376709,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",7,0.179072070437289,0.602816879749298,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",8,0.149399161720087,0.669669687747955,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",9,0.165304173990541,0.635416686534882,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (no PCA, untuned)",10,0.181247415757838,0.643863201141357,rfsrc,no PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",1,0.197284998912339,0.491355776786804,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",2,0.208639524756615,0.464491367340088,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",3,0.234472042411101,0.509225070476532,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",4,0.211552164537179,0.621253430843353,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",5,0.186344713156873,0.44912925362587,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",6,0.197842241575979,0.505125820636749,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",7,0.199558265403799,0.453521132469177,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",8,0.187724046061698,0.457457453012466,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",9,0.203588339654615,0.60321968793869,rfsrc,PCA,untuned
+Radiomics Tumor,"RSF (PCA, untuned)",10,0.223830138521042,0.495975852012634,rfsrc,PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",1,0.381748272679224,0.603275716304779,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",2,0.408284074198126,0.574856042861938,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",3,0.376341867720891,0.581180810928345,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",4,0.375132377921992,0.445958226919174,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",5,0.412446275312487,0.478460133075714,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",6,0.438459391765486,0.569431483745575,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",7,0.449211936975585,0.514553964138031,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",8,0.448826731381661,0.669669687747955,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",9,0.437113622887761,0.449810594320297,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (no PCA, untuned)",10,0.347130957073272,0.477867215871811,xgboost,no PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",1,0.369328998597053,0.57597815990448,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",2,0.408284074198126,0.538387715816498,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",3,0.376341867720891,0.566420674324036,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",4,0.375132377921992,0.474114447832108,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",5,0.412446275312487,0.561869859695435,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",6,0.438459391765486,0.534016788005829,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",7,0.449211936975585,0.541784048080444,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",8,0.448826731381661,0.60760760307312,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",9,0.437113622887761,0.489583343267441,xgboost,PCA,untuned
+Radiomics Tumor,"xgboost (PCA, untuned)",10,0.347130957073272,0.557344079017639,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",1,0.175502055859224,0.667424917221069,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",2,0.179979064286449,0.574376225471497,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",3,0.198278169913194,0.560885608196259,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",4,0.194341020517362,0.500454127788544,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",5,0.178969903356386,0.506874442100525,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",6,0.214305774740626,0.65796834230423,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",7,0.192637404811705,0.5,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",8,0.249024120178736,0.620620608329773,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",9,0.199620508589733,0.632575750350952,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, untuned)",10,0.210303649351547,0.681086540222168,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",8,0.17197399949559,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",9,0.188956238705396,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, untuned)",10,0.194551415641507,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",1,0.161193853177484,0.649681508541107,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",2,0.177390551901687,0.570057570934296,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",3,0.189380990345107,0.631918847560883,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",4,0.188609540647362,0.584014534950256,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",5,0.174429367454726,0.48120990395546,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",6,0.185935630012718,0.550792157649994,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",7,0.19266497191477,0.567136168479919,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",8,0.149876278580355,0.604604601860046,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",9,0.165474959055273,0.66856062412262,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, untuned)",10,0.192804361109658,0.619718313217163,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",1,0.189086503213402,0.549590528011322,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",2,0.201965189037531,0.531669855117798,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",3,0.221677083979564,0.638376355171204,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",4,0.204670133132663,0.574931859970093,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",5,0.179429976755182,0.506874442100525,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",6,0.18619085432208,0.607642114162445,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",7,0.190264121838094,0.538028180599213,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",8,0.169141747645341,0.589589595794678,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",9,0.187962095211849,0.659090936183929,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"RSF (PCA, untuned)",10,0.210101336992603,0.555332005023956,rfsrc,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",1,0.381748272679224,0.539581418037415,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",2,0.408284074198126,0.468330144882202,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",3,0.376341867720891,0.468634694814682,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",4,0.375132377921992,0.488646686077118,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",5,0.412446275312487,0.498625129461288,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",6,0.438459391765486,0.515377461910248,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",7,0.449211936975585,0.523943662643433,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",8,0.448826731381661,0.481481492519379,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",9,0.437113622887761,0.487689405679703,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, untuned)",10,0.347130957073272,0.471830993890762,xgboost,no PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",1,0.381748272679224,0.53230208158493,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",2,0.408284074198126,0.550863742828369,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",3,0.376341867720891,0.529520273208618,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",4,0.375132377921992,0.4087193608284,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",5,0.412446275312487,0.507791042327881,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",6,0.438459391765486,0.467847168445587,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",7,0.449211936975585,0.458215951919556,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",8,0.448826731381661,0.456456452608109,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",9,0.437113622887761,0.352272719144821,xgboost,PCA,untuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, untuned)",10,0.347130957073272,0.468812882900238,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",1,0.292538285909973,0.659690618515015,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",2,0.325880690483546,0.612284064292908,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",3,0.259978102705551,0.674354255199432,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",4,0.2643328983723,0.583106279373169,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",5,0.411017239045135,0.582034826278687,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",6,0.323303401347783,0.689655184745789,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",7,0.298223627000422,0.621596217155457,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",8,0.307534380867552,0.689689695835114,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",9,0.297244853024457,0.589962124824524,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, untuned)",10,0.278594280403936,0.677062392234802,cv_glmnet,no PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",8,0.17197399949559,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",9,0.188956238705396,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, untuned)",10,0.194551415641507,0.5,cv_glmnet,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",1,0.16211680883004,0.630573272705078,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",2,0.16884642897775,0.611324369907379,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",3,0.170301097413733,0.726937294006348,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",4,0.183543239760613,0.582198023796082,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",5,0.164200138088491,0.547204375267029,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",6,0.16269808634166,0.649580597877502,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",7,0.176821370729573,0.62065726518631,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",8,0.149960105459948,0.669669687747955,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",9,0.162438972150518,0.644886374473572,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, untuned)",10,0.178943244843258,0.656941652297974,rfsrc,no PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",1,0.196909742454683,0.498635113239288,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",2,0.205457044658286,0.532629549503326,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",3,0.232656492016653,0.530442833900452,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",4,0.211039217754481,0.594005465507507,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",5,0.182452122489538,0.440879940986633,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",6,0.191550455588367,0.601118385791779,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",7,0.198534661348163,0.467605620622635,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",8,0.184800889283515,0.496496498584747,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",9,0.201306008345299,0.601325750350952,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, untuned)",10,0.224272624567286,0.505030155181885,rfsrc,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",1,0.381748272679224,0.498635113239288,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",2,0.408284074198126,0.564299404621124,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",3,0.376341867720891,0.551660537719727,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",4,0.375132377921992,0.435967296361923,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",5,0.412446275312487,0.498625129461288,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",6,0.438459391765486,0.510717630386353,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",7,0.449211936975585,0.540845096111298,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",8,0.448826731381661,0.660660684108734,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",9,0.437113622887761,0.506628811359406,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, untuned)",10,0.347130957073272,0.559356153011322,xgboost,no PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",1,0.381748272679224,0.593266606330872,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",2,0.408284074198126,0.572936654090881,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",3,0.376341867720891,0.583025813102722,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",4,0.375132377921992,0.446866482496262,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",5,0.412446275312487,0.522456467151642,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",6,0.438459391765486,0.520037293434143,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",7,0.449211936975585,0.557746469974518,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",8,0.443773847220444,0.566566586494446,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",9,0.437113622887761,0.45928031206131,xgboost,PCA,untuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, untuned)",10,0.347130957073272,0.568410456180573,xgboost,PCA,untuned
+Radiomics Liver,"glmnet (no PCA, tuned)",1,0.16901031361962,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",8,0.17197399949559,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",9,0.188956238705396,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (no PCA, tuned)",10,0.194551415641507,0.5,cv_glmnet,no PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"glmnet (PCA, tuned)",8,0.17197399949559,0.5,cv_glmnet,PCA,tuned
+Radiomics Tumor,"glmnet (no PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,no PCA,tuned
+Radiomics Tumor,"glmnet (no PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,no PCA,tuned
+Radiomics Tumor,"glmnet (no PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,no PCA,tuned
+Radiomics Tumor,"glmnet (no PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,no PCA,tuned
+Radiomics Tumor,"glmnet (no PCA, tuned)",8,0.17197399949559,0.5,cv_glmnet,no PCA,tuned
+Radiomics Tumor,"glmnet (no PCA, tuned)",10,0.194551415641507,0.5,cv_glmnet,no PCA,tuned
+Radiomics Tumor,"glmnet (PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,tuned
+Radiomics Tumor,"glmnet (PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,tuned
+Radiomics Tumor,"glmnet (PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,tuned
+Radiomics Tumor,"glmnet (PCA, tuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,tuned
+Radiomics Tumor,"glmnet (PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,tuned
+Radiomics Tumor,"glmnet (PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,tuned
+Radiomics Tumor,"glmnet (PCA, tuned)",9,0.191927309853073,0.578598499298096,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, tuned)",1,0.16901031361962,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (no PCA, tuned)",8,0.17197399949559,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",8,0.186637742902558,0.599599599838257,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",9,0.188956238705396,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Liver,"glmnet (PCA, tuned)",10,0.194551415641507,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, tuned)",3,0.197194738921764,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, tuned)",8,0.312301885581168,0.694694697856903,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, tuned)",9,0.188956238705396,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (no PCA, tuned)",10,0.194551415641507,0.5,cv_glmnet,no PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",1,0.16901031361962,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",2,0.17527204263344,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",3,0.209251588165955,0.623616218566895,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",4,0.192129269456782,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",5,0.170490633733861,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",6,0.188931753577806,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",7,0.192637404811705,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",8,0.187535415805831,0.531531512737274,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",9,0.188956238705396,0.5,cv_glmnet,PCA,tuned
+Clinical Data & Radiomics Tumor,"glmnet (PCA, tuned)",10,0.194551415641507,0.5,cv_glmnet,PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",1,0.159521374817293,0.66424024105072,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",2,0.175954836428702,0.578694820404053,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",3,0.186309747751092,0.623616218566895,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",4,0.18558738451951,0.581289708614349,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",5,0.168450314058564,0.509624183177948,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",6,0.183661642903583,0.563839673995972,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",7,0.190811520773873,0.554929554462433,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",8,0.158936897440126,0.554554581642151,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",9,0.17439791189805,0.625,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (no PCA, tuned)",10,0.194159005386767,0.578470826148987,rfsrc,no PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",1,0.170835931975541,0.597816169261932,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",2,0.171261242868205,0.552783131599426,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",3,0.196386478810594,0.612546145915985,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",4,0.184547266249722,0.589464128017426,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",5,0.168561909391991,0.526122808456421,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",6,0.172759819356009,0.684063374996185,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",7,0.18179599448779,0.60375589132309,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",8,0.166198477553465,0.574574589729309,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",9,0.175074832612468,0.625946998596191,rfsrc,PCA,tuned
+Radiomics Liver,"RSF (PCA, tuned)",10,0.19328684008508,0.559356153011322,rfsrc,PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",1,0.216190638496317,0.585077345371246,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",2,0.198291973778397,0.547024965286255,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",3,0.255818213754616,0.632841348648071,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",4,0.219516378253503,0.584922790527344,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",5,0.179836642152603,0.491292387247086,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",6,0.212773390046083,0.569431483745575,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",7,0.203299248869554,0.498591542243958,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",8,0.182586665092993,0.494494497776031,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",9,0.217289905052132,0.651515126228333,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (no PCA, tuned)",10,0.230327359204225,0.567404448986053,xgboost,no PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",1,0.175642641964214,0.535031855106354,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",2,0.182355510005617,0.533589243888855,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",3,0.214212167449933,0.478782296180725,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",4,0.188799666655873,0.44323343038559,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",5,0.178262607074945,0.508707582950592,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",6,0.188950543153207,0.477166831493378,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",7,0.190057708926305,0.492018789052963,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",8,0.182112098638093,0.550550580024719,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",9,0.216899022346734,0.672348499298096,xgboost,PCA,tuned
+Radiomics Liver,"xgboost (PCA, tuned)",10,0.199439075281219,0.510060369968414,xgboost,PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",1,0.155125192798127,0.646951794624329,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",2,0.172294202410257,0.590211153030396,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",3,0.160357021049834,0.742619931697845,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",4,0.184505421686807,0.578564941883087,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",5,0.164953081929685,0.539871692657471,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",6,0.163780101821841,0.668219923973083,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",7,0.188707523787941,0.614084482192993,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",8,0.145189741047065,0.732732713222504,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",9,0.168498225268611,0.642045438289642,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (no PCA, tuned)",10,0.176049241866973,0.659959733486176,rfsrc,no PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",1,0.162818702448047,0.608735203742981,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",2,0.17104409254665,0.576775431632996,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",3,0.183710107933824,0.650368988513947,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",4,0.191436454558457,0.554950058460236,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",5,0.162752727780352,0.569202542304993,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",6,0.184771968903244,0.580615103244781,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",7,0.200267967374743,0.479812204837799,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",8,0.17245350299264,0.527527511119843,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",9,0.17961348435764,0.570075750350952,rfsrc,PCA,tuned
+Radiomics Tumor,"RSF (PCA, tuned)",10,0.18626817550509,0.633802831172943,rfsrc,PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",1,0.215642831067548,0.635122835636139,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",2,0.23804512727291,0.609404981136322,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",3,0.264040238750048,0.727859795093536,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",4,0.24235875504424,0.624886453151703,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",5,0.193447506181498,0.547204375267029,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",6,0.227769958459181,0.655172407627106,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",7,0.213531873132806,0.604694843292236,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",8,0.213224255834122,0.68668669462204,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",9,0.226415969723655,0.626893937587738,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (no PCA, tuned)",10,0.260477581686318,0.659959733486176,xgboost,no PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",1,0.169997096846764,0.464968144893646,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",2,0.174697846472572,0.423224568367004,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",3,0.202397274593965,0.485239863395691,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",4,0.204785443201609,0.566757500171661,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",5,0.162044209594589,0.413382232189178,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",6,0.198753117344763,0.528424978256226,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",7,0.192403025241619,0.497652590274811,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",8,0.173719985839771,0.46046045422554,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",9,0.204204075973149,0.587121188640594,xgboost,PCA,tuned
+Radiomics Tumor,"xgboost (PCA, tuned)",10,0.188748550365398,0.449698179960251,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",1,0.164000752232657,0.615104615688324,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",2,0.172312644156537,0.570057570934296,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",3,0.180573665519374,0.643911421298981,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",4,0.187203080022077,0.55676656961441,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",5,0.179319027261246,0.482126504182816,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",6,0.185044500379489,0.566635608673096,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",7,0.178074659171626,0.618779361248016,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",8,0.150730612684341,0.625625610351562,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",9,0.164578522412667,0.67803031206131,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (no PCA, tuned)",10,0.186559460709362,0.619718313217163,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",1,0.164181120729955,0.598726093769073,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",2,0.175807221044055,0.531190037727356,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",3,0.190143987534611,0.666974186897278,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",4,0.188122252743782,0.554041802883148,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",5,0.171161497946882,0.487626045942307,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",6,0.178353021734774,0.595526576042175,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",7,0.183615611952403,0.572769939899445,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",8,0.166570103097897,0.552552580833435,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",9,0.168713288936414,0.66856062412262,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"RSF (PCA, tuned)",10,0.189645515213315,0.581991970539093,rfsrc,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",1,0.189050188898592,0.584167420864105,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",2,0.197814386767933,0.4932821393013,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",3,0.24752956697299,0.734317362308502,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",4,0.204631773328419,0.4931880235672,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",5,0.184014292992378,0.437213569879532,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",6,0.216128282044318,0.651444554328918,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",7,0.232989672316881,0.616901397705078,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",8,0.221466739752364,0.616616606712341,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",9,0.228128645848317,0.689393937587738,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (no PCA, tuned)",10,0.238246098551162,0.610664010047913,xgboost,no PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",1,0.190060531321469,0.591446757316589,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",2,0.193285907649116,0.521113216876984,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",3,0.209141940383752,0.519372701644897,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",4,0.213689495460017,0.592188894748688,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",5,0.200862434861008,0.554537117481232,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",6,0.215785619556329,0.567567586898804,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",7,0.215099546653798,0.588732421398163,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",8,0.182285034006485,0.650650680065155,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",9,0.205776813039772,0.676136374473572,xgboost,PCA,tuned
+Clinical Data & Radiomics Liver,"xgboost (PCA, tuned)",10,0.20635566505084,0.526156961917877,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",1,0.155002943494008,0.629663348197937,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",2,0.169006144801528,0.618042230606079,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",3,0.169736964740357,0.700184524059296,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",4,0.185817046566548,0.586739301681519,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",5,0.171738374082681,0.540788292884827,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",6,0.162907356355291,0.674743711948395,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",7,0.174335620083496,0.635680735111237,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",8,0.142441915433419,0.704704701900482,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",9,0.160273515790044,0.66571968793869,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (no PCA, tuned)",10,0.17960180857034,0.651911497116089,rfsrc,no PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",1,0.164450348071184,0.594176530838013,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",2,0.174064873813678,0.593090236186981,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",3,0.184111997715151,0.666974186897278,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",4,0.189856501607739,0.551316976547241,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",5,0.157676093067728,0.615948677062988,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",6,0.176214463510187,0.64119291305542,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",7,0.182281641634787,0.583098590373993,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",8,0.167306259592235,0.555555582046509,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",9,0.178809603925584,0.633522748947144,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"RSF (PCA, tuned)",10,0.183249326769755,0.691146910190582,rfsrc,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",1,0.224251920782155,0.613284826278687,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",2,0.222906078656992,0.600767731666565,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",3,0.2707359170785,0.711254596710205,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",4,0.247435143118687,0.519527673721313,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",5,0.187069930203092,0.477543532848358,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",6,0.223155285777269,0.607642114162445,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",7,0.235496672980489,0.639436602592468,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",8,0.204033527560442,0.721721708774567,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",9,0.239752487240488,0.681818187236786,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (no PCA, tuned)",10,0.2572483817156,0.689134836196899,xgboost,no PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",1,0.181906684403814,0.530482232570648,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",2,0.186368436541393,0.453934729099274,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",3,0.210581339441036,0.496309965848923,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",4,0.200762105981526,0.530426859855652,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",5,0.173510893459888,0.536205291748047,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",6,0.190651020957955,0.520037293434143,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",7,0.198789544731193,0.443192481994629,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",8,0.164495232086502,0.393393397331238,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",9,0.201563995098064,0.54356062412262,xgboost,PCA,tuned
+Clinical Data & Radiomics Tumor,"xgboost (PCA, tuned)",10,0.193796550047329,0.501006007194519,xgboost,PCA,tuned
