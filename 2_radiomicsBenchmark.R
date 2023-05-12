@@ -31,21 +31,64 @@ sapply(PACKAGES, require, character.only = TRUE)
 # Load and preprocess data set
 ###################################################
 
-# breast cancer data set from mlr3proba
-bc = mlr3proba::gbcs
+# # Breast Cancer data set
+# # breast cancer data set from mlr3proba
+# bc = mlr3proba::gbcs
+#
+# # remove irrelevant variables
+# # analysis of overall survival -> remove recurrence variables
+# # rename time and event variable to
+# # as factor: menopause, hormone, grade
+# # death: event variable needs to be numeric instead of factor for survival
+# bc = bc %>%
+#   dplyr::select(-c("id", "diagdate", "recdate", "deathdate", "censrec", "rectime"))%>%
+#   rename("osdays" = "survtime", "death" = "censdead") %>%
+#   mutate_at(c("menopause", "hormone", "grade"), factor)
 
-# remove irrelevant variables
-# analysis of overall survival -> remove recurrence variables
-# rename time and event variable to
-# as factor: menopause, hormone, grade
-# death: event variable needs to be numeric instead of factor for survival
-bc = bc %>%
-  dplyr::select(-c("id", "diagdate", "recdate", "deathdate", "censrec", "rectime"))%>%
-  rename("osdays" = "survtime", "death" = "censdead") %>%
-  mutate_at(c("menopause", "hormone", "grade"), factor)
+# name all radiomics and clinical datasets for the benchmark analyses here
+# TASK_IDS = c("bc")
+
+
+# bc = survival::lung
+#
+# bc$ph.ecog[bc$ph.ecog == 3] = 2
+#
+# bc = bc %>% select(-("inst")) %>%
+#   rename("osdays" = "time", "death" = "status") %>%
+#   mutate_at(c("sex", "ph.ecog"), as.factor)
+#
+# str(bc)
+# summary(bc)
+#
+#
+# bc = as.data.frame(heart_failure_clinical_records_dataset)
+#
+# bc = bc %>% #select(-("id")) %>%
+#   rename("osdays" = "time", "death" = "DEATH_EVENT") %>%
+#   mutate_at(c("anaemia", "diabetes", "high_blood_pressure", "sex", "smoking"), as.factor)
+#
+#
+# # name all radiomics and clinical datasets for the benchmark analyses here
+# TASK_IDS = c("bc")
+
+
+library("mlr3")
+library("mlr3oml")
+
+# be less verbose
+lgr::get_logger("mlr3oml")$set_threshold("warn")
+
+# retrieve data set as task from OML
+o = OMLData$new(1245)
+bc = o$data
+
+bc = bc %>% #select(-("id")) %>%
+  rename("osdays" = "OS_years", "death" = "OS_event") %>%
+  mutate(death = as.numeric(death) -1)
 
 # name all radiomics and clinical datasets for the benchmark analyses here
 TASK_IDS = c("bc")
+
 
 
 ###################################################
@@ -67,18 +110,19 @@ LEARNER_IDS = c(
   "surv.rfsrc-tuned",
   "surv.rfsrc-untuned",
   "surv.rfsrc-pca-tuned",
-  "surv.rfsrc-pca-untuned",
-  "surv.xgboost-tuned",
-  "surv.xgboost-untuned",
-  "surv.xgboost-pca-tuned",
-  "surv.xgboost-pca-untuned"
+  "surv.rfsrc-pca-untuned"
+  # eventually add xgboost
+  # "surv.xgboost-tuned",
+  # "surv.xgboost-untuned",
+  # "surv.xgboost-pca-tuned",
+  # "surv.xgboost-pca-untuned"
 )
 
 # set some default hyperparamter settings
 LEARNER_PAR_VALUES = list(
-  "surv.cv_glmnet" = list(parallel = TRUE),
-  "surv.rfsrc" = list(ntree = 50L, na.action = "na.impute"), # sirflox: ntree  500L
-  "surv.xgboost" = list(nrounds = 50L, verbose = 0)# sirflox: nrounds  500L
+  "surv.cv_glmnet" = list(alpha = 0, parallel = TRUE), # sirflox: alpha = 1
+  "surv.rfsrc" = list(ntree = 30L, na.action = "na.impute"), # sirflox: ntree  500L
+  "surv.xgboost" = list(nrounds = 500L, verbose = 0)
 )
 
 # define a fallback learner, such that benchmark does not throw an error and stops the benchmark experiment
@@ -109,10 +153,12 @@ getGraphLearner = function(learner_id, learner) {
   fs_corr = po("filter", id = "corr_filter", mlr3filters::flt("find_correlation", task_type = "surv"),
     affect_columns = selector_type(c("numeric", "integer")))
   # based on feature importance of a rf
-  fs_rfimp = po("filter", id = "rfimp_filter", mlr3filters::flt("importance", learner = lrn("surv.ranger",
+  fs_rfimp = po("filter", id = "rfimp_filter",
+    mlr3filters::flt("importance", learner = lrn("surv.ranger",
     importance = "permutation")))
   # based on information gain
-  fs_ig = po("filter", id = "ig_filter", mlr3filters::flt("information_gain", equal = TRUE, task_type = "surv"))
+  fs_ig = po("filter", id = "ig_filter",
+    mlr3filters::flt("information_gain", equal = TRUE, task_type = "surv"))
   # list all feature selection methods
   fs_opts = list(FS_Corr = fs_corr, FS_RFimp = fs_rfimp, FS_IG = fs_ig, FS_None = po("nop", "no_fs"))
   # define the feature selection branch
@@ -153,10 +199,10 @@ getGraphLearner = function(learner_id, learner) {
 }
 
 # Resampling for evaluation, 10-fold cross validation
-RESAMPLING_OUTER = rsmp("cv", folds = 10L)
+RESAMPLING_OUTER = rsmp("cv", folds = 3L) # sirflox: 10L
 
 # Resampling for tuning, 5-fold cross validation
-RESAMPLING_INNER = rsmp("cv", folds = 5L)
+RESAMPLING_INNER = rsmp("cv", folds = 3L) # sirflox: 5L
 
 
 ###################################################
@@ -165,7 +211,7 @@ RESAMPLING_INNER = rsmp("cv", folds = 5L)
 
 # Settings for tuners
 ETA = 2
-N_EVALS = 30L # sirflox: 200L
+N_EVALS = 20L # sirflox: 200L
 
 # tuner: for xgboost and rfsrc hyperband, in case of glmnet no meaningful eta definable
 # -> use random search instead
@@ -197,27 +243,26 @@ getTerminator = function(learner_id) {
 getTuningParams = function(learner_id, task) {
   if (learner_id == "surv.cv_glmnet") {
     search_space = ps(
-      surv.cv_glmnet.alpha = p_dbl(lower = 0, upper = 1),
+      surv.cv_glmnet.alpha = p_dbl(lower = 0.1, upper = 0.9), # sirflox: lower = 0.1, upper = 1
       fs_branch.selection = p_fct(levels = c("FS_Corr", "FS_RFimp", "FS_IG", "FS_None")), # necessary for tuning over fs methods
       FS_Corr.corr_filter.filter.cutoff = p_dbl(0.1, 0.9),
       FS_RFimp.rfimp_filter.filter.frac = p_dbl(0.1, 0.9),
-      FS_IG.ig_filter.filter.frac = p_dbl(0.1, 0.9)
+      FS_IG.ig_filter.filter.frac = p_dbl(0.5, 0.9) #sirflox: p_dbl(0.1, 0.9)
     )
   } else if (learner_id == "surv.rfsrc") {
     search_space = ps(
-      surv.rfsrc.ntree = p_int(lower = 20L, upper = 200L, tags = "budget"),
+      surv.rfsrc.ntree = p_int(lower = 20L, upper = 100L, tags = "budget"),
       # sirflox: lower = 20L, upper = 1500L
       surv.rfsrc.mtry = p_int(lower = 3L, upper = ceiling((task$ncol)^(1/1.5))),
       surv.rfsrc.nodesize = p_int(lower = 1L, upper = task$nrow),
       fs_branch.selection = p_fct(levels = c("FS_Corr", "FS_RFimp", "FS_IG", "FS_None")),
       FS_Corr.corr_filter.filter.cutoff = p_dbl(0.1, 0.9),
       FS_RFimp.rfimp_filter.filter.frac = p_dbl(0.1, 0.9),
-      FS_IG.ig_filter.filter.frac = p_dbl(0.1, 0.9)
+      FS_IG.ig_filter.filter.frac = p_dbl(0.5, 0.9) #sirflox: p_dbl(0.1, 0.9)
     )
   } else if (learner_id == "surv.xgboost") {
     search_space = ps(
-      surv.xgboost.nrounds = p_int(lower = 20L, upper = 200L, tags = "budget"),
-      # sirflox: lower = 20L, upper = 1500L
+      surv.xgboost.nrounds = p_int(lower = 20L, upper = 1500L, tags = "budget"),
       surv.xgboost.eta = p_dbl(lower = -4L, upper = 0, trafo = function(x) 10^x),
       surv.xgboost.max_depth = p_int(lower = 1L, upper = 20),
       surv.xgboost.colsample_bylevel = p_dbl(lower = 0.1, upper = 1),
@@ -371,4 +416,4 @@ design = data.table(
 # getStatus()
 
 bench = benchmark(design, store_models = TRUE)
-# save(bench, "data/bmr_breastCancer")
+saveRDS(bench, "data/bmr_lung.RDS")
