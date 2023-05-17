@@ -11,6 +11,8 @@ Our goal is to provide an mostly automated approach for conducting and evaluatin
 2. [Radiomics-based benchmark experiment](#radiomics-based-benchmark-experiment)
 3. [Evaluation of the benchmark results via an LMM](#evaluation-of-the-benchmark-results-via-an-lmm)
 
+We conducted the aforementioned analysis steps for our original study; however, due to data privacy laws, we are unable to present the study with the original radiomics data. Instead, we provide the analysis using an example dataset. For the final step, where the benchmark results are analyzed using a mixed model approach, we present our own results. Accordingly, all three analysis steps are to be considered disjoint here.
+
 
 ## Calculation of radiomics features
 
@@ -23,8 +25,10 @@ Our benchmark was set up as described in the figure below, but it can be easily 
 
 ![alt text](img/benchmarkPipelineSetup.png "Setup")
 
-We present the benchmark experiment in `2_radiomicsBenchmark.R` for the example dataset of the [German Breast Cancer Study](https://rdrr.io/github/mlr-org/mlr3proba/man/gbcs.html) provided in *mlr3proba*.
+We present the benchmark experiment in `2_radiomicsBenchmark.R` for the example dataset of the [Shedden Lung Cancer Study](https://www.openml.org/search?type=data&status=any&id=1245) provided in *OpenML*. 
+Adaptations made in comparison to the original study are documented in the comments within the R script.
 
 
 ## Evaluation of the benchmark results via an LMM
 
+In the meta-analysis of the benchmark results, a linear mixed model (LMM) was employed to examine significant differences among the observed performances. The LMM accounted for data correlation induced by repeatedly using the same cross-validation train/test sets by incorporating a random effect. To enable inference with respect to the experimental benchmark setup of our original study, we included datasets and pipeline variations, along with their interactions, as fixed effects in the LMM and analyzed their relevance via analysis of variance (ANOVA). Of course the composition of fixed effects is dependent on the benchmark setup chosen.
