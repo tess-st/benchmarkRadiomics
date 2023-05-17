@@ -25,7 +25,7 @@ Our benchmark was set up as described in the figure below, but it can be easily 
 
 ![alt text](img/benchmarkPipelineSetup.png "Setup")
 
-We present the benchmark experiment in `2_radiomicsBenchmark.R` for the example dataset of the [Shedden Lung Cancer Study]([https://rdrr.io/github/mlr-org/mlr3proba/man/gbcs.html](https://www.openml.org/search?type=data&status=any&id=1245)) provided in *OpenML*. 
+We present the benchmark experiment in `2_radiomicsBenchmark.R` for the example dataset of the [Shedden Lung Cancer Study](https://www.openml.org/search?type=data&status=any&id=1245) provided in *OpenML*. 
 Adaptations made in comparison to the original study are documented in the comments within the R script.
 
 
