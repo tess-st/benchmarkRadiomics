@@ -13,7 +13,7 @@ PACKAGES = c(
   "praznik",
   "FSelectorRcpp",
   "mlr3tuning",
-  # "mlr3hyperband",
+  "mlr3hyperband",
   "bbotk",
   "mlr3misc",
   "paradox",
@@ -79,10 +79,11 @@ library("mlr3oml")
 lgr::get_logger("mlr3oml")$set_threshold("warn")
 
 # retrieve data set as task from OML
+#
 o = OMLData$new(1245)
 bc = o$data
 
-bc = bc %>% #select(-("id")) %>%
+bc = bc %>%
   rename("osdays" = "OS_years", "death" = "OS_event") %>%
   mutate(death = as.numeric(death) -1)
 
