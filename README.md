@@ -33,5 +33,12 @@ Adaptations made in comparison to the original study are documented in the comme
 
 In the meta-analysis of the benchmark results, a linear mixed model (LMM) was employed to examine significant differences among the observed performances. The LMM accounted for data correlation induced by repeatedly using the same cross-validation train/test sets by incorporating a random effect. To enable inference with respect to the experimental benchmark setup of our original study, we included datasets and pipeline variations, along with their interactions, as fixed effects in the LMM and analyzed their relevance via analysis of variance (ANOVA). Of course the composition of fixed effects is dependent on the benchmark setup chosen.
 
+$$ 
+y_{idl} = \beta_0 + \beta_d (dataset) + \beta_l (learner) + \beta_{dl} (dataset*learner) + b_i+ \epsilon_{idl}  			
+\text{with} 	b_i \sim^{iid} N(0,\tau²) and \epsilon_{idl} \sim^{iid} N(0, \sigma²)
+i=1, ..., 10 CV; d=1, ...,5; l=1, ...,12 
+y_{idl}	performance IBS of learner l for the i-th fold on data set d 
+ $$
+
 ![alt text](img/LMM_interactionplot_ci.png)
 
