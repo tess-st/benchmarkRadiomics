@@ -31,7 +31,7 @@ Adaptations made in comparison to the original study are documented in the comme
 
 ## Evaluation of the benchmark results via an LMM
 
-In the meta-analysis of the benchmark results, a linear mixed model (LMM) was employed to examine significant differences among the observed performances. The LMM accounted for data correlation induced by repeatedly using the same cross-validation train/test sets by incorporating a random effect. To enable inference with respect to the experimental benchmark setup of our original study, we included datasets and pipeline variations, along with their interactions, as fixed effects in the LMM and analyzed their relevance via analysis of variance (ANOVA), see equation below. The according analysis script is provided `3_1_lmm_sirfloxBMR.R`. Of course the composition of fixed effects is dependent on the benchmark setup chosen. An adapted version of the benchmark evaluation via an LMM is provided in `3_2_lmm_lungBMR.R` for the analysis of results obtained from [Radiomics-based benchmark experiment](#radiomics-based-benchmark-experiment).   
+In the meta-analysis of the benchmark results, a linear mixed model (LMM) was employed to examine significant differences among the observed performances. The LMM accounted for data correlation induced by repeatedly using the same cross-validation train/test sets by incorporating a random effect. To enable inference with respect to the experimental benchmark setup of our original study, we included datasets and pipeline variations, along with their interactions, as fixed effects in the LMM. The according analysis script is provided `3_1_lmm_sirfloxBMR.R`. Of course the composition of fixed effects is dependent on the benchmark setup chosen. An adapted version of the benchmark evaluation via an LMM is provided in `3_2_lmm_lungBMR.R` for the analysis of results obtained from [Radiomics-based benchmark experiment](#radiomics-based-benchmark-experiment).   
 
 $$ 
 y_{idl} = \beta_0 + \beta_d (dataset) + \beta_l (learner) + \beta_{dl} (dataset \times learner) + b_i+ \epsilon_{idl}  			
@@ -45,5 +45,6 @@ $$
 \end{align} 
 $$
 
-![alt text](img/LMM_interactionplot_ci.png)
+Considering the presence of an interaction term in the linear mixed model (LMM), we computed estimated marginal means (EMMs), also known as least-squares or predicted means. The EMMs represent the adjusted means of each predictor, accounting for the mean values of the predictors they interact with in the model. These predictions were visually presented in an interaction-style plot, which included the EMMs and their corresponding simultaneous confidence intervals (CIs).
 
+![alt text](img/LMM_interactionplot_ci.png)
